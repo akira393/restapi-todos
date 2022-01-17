@@ -24,4 +24,4 @@ class TableSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Table
-        fields = ('id', 'title', "describe",'created_at')
+        fields = ('id', 'name', "describe",'created_at')
